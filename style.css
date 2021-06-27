@@ -1,0 +1,84 @@
+/* Starting Point Of The Project ! */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+}
+body{
+	background: #99e4ff;
+}
+.box{
+	background: #002533;
+	width: 300px;
+	padding: 20px 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.box h1{
+	margin-bottom: 30px; 
+	color: #00ace6;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 50px;
+}
+.box p{
+	color: lightblue;
+}
+#text{
+	color: lightblue;
+	font-size: 12px;
+}
+.box a{
+	color: lightblue;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: none;
+}
+#password:hover{
+	color: orangered;
+}
+#account:hover{
+	color: lightgreen;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"]{
+	font-size: 15px;
+	border: 0;
+	background: none;
+	text-align: center;
+	width: 220px;
+	padding: 14px 10px;
+	margin: 20px auto;
+	display: block;
+	outline: none;
+	border: 2px solid skyblue;
+	border-radius: 25px;
+	color: #fff;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus{
+	width: 300px;
+	border: 2px solid lightgreen;
+}
+.box input[type="text"]:hover,.box input[type="password"]:hover,.box input[type="email"]:hover{
+	width: 300px;
+	border: 2px solid lightgreen;
+}
+.box input[type="submit"]{
+	background: none;
+	outline: none;
+	padding: 10px;
+	border: 2px solid lightgreen;
+	border-radius: 25px;
+	width: auto;
+	color: white;
+}
+.box input[type="submit"]:hover{
+	background: lightgreen;
+	color: black;
+}
+
+
+/* The End Of The Sign In Project! */
